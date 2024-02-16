@@ -5,6 +5,8 @@ import Card2 from './Components/Card2'
 import 'bootstrap/dist/css/bootstrap.min.css';
 // ------------------------------------------
 import ReactBootstrap from './Components/react-bootstrap';
+import Counter from './Components/Counter';
+import State from './Components/State';
 
 
 function App() {
@@ -12,7 +14,8 @@ function App() {
 
   return (
     <>
-      
+      <State></State>
+      <Counter></Counter>
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
