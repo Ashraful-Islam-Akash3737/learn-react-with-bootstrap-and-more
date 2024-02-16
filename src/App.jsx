@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import './App.css'
 import Card2 from './Components/Card2'
-import Card3 from './Components/Card3'
+// bootstrap css-----------------------
 import 'bootstrap/dist/css/bootstrap.min.css';
+// ------------------------------------------
+import ReactBootstrap from './Components/react-bootstrap';
 
 
 function App() {
@@ -19,7 +21,7 @@ function App() {
         
       </div>
       <Card2 name="Akash"></Card2>
-      <Card3></Card3>
+      <ReactBootstrap></ReactBootstrap>
       
     </>
   )
